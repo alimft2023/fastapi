@@ -2,6 +2,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 myList=[10,20,30,40,50]
+myList2=['ali','reza','amir']
 
 @app.get('/')  # Read
 def index():
